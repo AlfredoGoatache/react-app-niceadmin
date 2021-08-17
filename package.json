@@ -1,6 +1,6 @@
 {
-  "homepage":"https://alfredogoatache.github.io/react-app-niceadmin",
-  "name": "my-app",
+  "homepage": "https://alfredogoatache.github.io/react-app-niceadmin/",
+  "name": "niceadmin-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,11 +18,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-page -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
