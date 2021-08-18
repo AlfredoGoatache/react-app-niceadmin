@@ -38,11 +38,6 @@ const Dashboard =() => {
           <Panel titulo={'Panel 2'}/>
           </div>
       </div>
-  
-  
-  
-  
-      
     );
   }
 
