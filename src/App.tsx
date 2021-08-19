@@ -1,4 +1,5 @@
 import './App.css';
+import { Charts } from './pages/Charts.component';
 import { Header } from './shared/header/header.component';
 import { Sidebar } from './shared/sidebar/sidebar.component';
 import { Wrapper } from './widgets/Wrapper.component';
@@ -12,7 +13,7 @@ const App = () => {
       <Header/>
       <Sidebar/>
         <section id="main-content">
-      <Wrapper pagina={''}/>
+      <Wrapper pagina={<Charts/>}/>
       </section>
     </section>
   );
